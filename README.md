@@ -24,5 +24,31 @@ matplotlib = "^3.3.2"
 ```
 To replicate the workflow, one can use the poetry script, given in the root folder. This will install all required dependencies. It is recommended to do this research on a unix system due to the fact that dependency installation may be troublesome on Windows due to different dependency installation processes.
 
+In order to use this workflow, please ensure that you have a [Python][1] version greater or equal to `3.6.1`, a working installation of [Poetry][2] and [git][3] installed. The project setup is described in the following paragraph.
+
+### Setup
+
+1. Clone this repository (or use SSH) and move it into the repo root.
+
+	git clone https://github.com/kuzniarz/A2-hcds-hcc.git
+	cd A2-hcds-hcc
+
+1. Install the dependencies in the repo root.
+
+	poetry install
+
+1. Create a subshell within the virtual environment by running:
+
+	poetry shell
+
+1. Open the project with Jupyter in your browser.
+
+	jupyter notebook
+
 ## License
 This project ist MIT licensed. Further information can be found in the LICENSE file.
+
+---
+[1]:  https://www.python.org/
+[2]:	https://python-poetry.org/docs/
+[3]:	https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
