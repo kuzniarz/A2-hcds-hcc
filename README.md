@@ -3,7 +3,7 @@
 ## Introduction
 In today's science it is more than ever of great importance to document research results in detail. In the field of Open Science it is also important to provide used data to enable reproducibility or replicability. Not only does this serve to make results comprehensible, but it also enables them to be challanged. It is the duty of every scientist to critically evaluate the work of others as well as own research. This project was created during the course "Human Centered Data Science" at the Freie Universität Berlin to train concepts of reproducibility and replicability. 
 
-The topic of this research covers the website traffic of the english wikipedia page between January 2008 and October 2020. Results are presented as a plot.
+The goal of this research was to visualize the website traffic of the english wikipedia page between January 2008 and October 2020. Results are presented as a plot.
 
 ## Data and Results
 The given folder structure in this project should provide clarity and easy of use. All fetched and processed data can be found in raw_data as .json files or clean_data as .csv respectively. Analysis of the given data was done with pandas and results are presented as a plot that can be found in the folder results.
@@ -29,22 +29,22 @@ In order to use this workflow, please ensure that you have a [Python][1] version
 ### Setup
 
 1. Clone this repository (or use SSH) and move it into the repo root.
-
+```
 	git clone https://github.com/kuzniarz/A2-hcds-hcc.git
 	cd A2-hcds-hcc
-
-1. Install the dependencies in the repo root.
-
+```
+2. Install the dependencies in the repo root.
+```
 	poetry install
-
-1. Create a subshell within the virtual environment by running:
-
+```
+3. Create a subshell within the virtual environment by running:
+```
 	poetry shell
-
-1. Open the project with Jupyter in your browser.
-
+```
+4. Open the project with Jupyter in your browser.
+```
 	jupyter notebook
-
+```
 ## License
 This project ist MIT licensed. Further information can be found in the LICENSE file.
 
